@@ -7,23 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84100E6725A793C1000BFEC2 /* test_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84100E6625A793C1000BFEC2 /* test_test.swift */; };
 		8433525F2596480B005028F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433525E2596480B005028F5 /* AppDelegate.swift */; };
 		843352612596480B005028F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352602596480B005028F5 /* SceneDelegate.swift */; };
 		843352632596480B005028F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352622596480B005028F5 /* ViewController.swift */; };
 		843352662596480B005028F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843352642596480B005028F5 /* Main.storyboard */; };
 		843352682596480E005028F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843352672596480E005028F5 /* Assets.xcassets */; };
 		8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843352692596480E005028F5 /* LaunchScreen.storyboard */; };
-		843B34C125A902C700EBA7E4 /* egor.png in Resources */ = {isa = PBXBuildFile; fileRef = 843B34C025A902C600EBA7E4 /* egor.png */; };
-		844D0E0D25A24E0100BEF6A1 /* scary-santa-17297624.png in Resources */ = {isa = PBXBuildFile; fileRef = 844D0E0C25A24E0100BEF6A1 /* scary-santa-17297624.png */; };
-		849A7A6B25A1B669007E3D06 /* andr.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A7A6925A1B669007E3D06 /* andr.png */; };
-		849A7A6C25A1B669007E3D06 /* ann.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A7A6A25A1B669007E3D06 /* ann.png */; };
-		849A7A6F25A1B710007E3D06 /* vova.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A7A6E25A1B710007E3D06 /* vova.png */; };
-		84B6268025966B4C007C028E /* main background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B6267F25966B4C007C028E /* main background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84100E6625A793C1000BFEC2 /* test_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_test.swift; sourceTree = "<group>"; };
 		8433525B2596480B005028F5 /* NewYearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433525E2596480B005028F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843352602596480B005028F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,12 +24,6 @@
 		843352672596480E005028F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8433526A2596480E005028F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8433526C2596480E005028F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843B34C025A902C600EBA7E4 /* egor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = egor.png; path = Assets.xcassets/egor.png; sourceTree = "<group>"; };
-		844D0E0C25A24E0100BEF6A1 /* scary-santa-17297624.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scary-santa-17297624.png"; path = "Assets.xcassets/scary-santa-17297624.png"; sourceTree = "<group>"; };
-		849A7A6925A1B669007E3D06 /* andr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = andr.png; path = Assets.xcassets/andr.png; sourceTree = "<group>"; };
-		849A7A6A25A1B669007E3D06 /* ann.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ann.png; path = Assets.xcassets/ann.png; sourceTree = "<group>"; };
-		849A7A6E25A1B710007E3D06 /* vova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vova.png; path = Assets.xcassets/vova.png; sourceTree = "<group>"; };
-		84B6267F25966B4C007C028E /* main background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "main background.jpg"; path = "Assets.xcassets/main background.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,14 +60,7 @@
 				843352602596480B005028F5 /* SceneDelegate.swift */,
 				843352622596480B005028F5 /* ViewController.swift */,
 				843352642596480B005028F5 /* Main.storyboard */,
-				84100E6625A793C1000BFEC2 /* test_test.swift */,
 				843352672596480E005028F5 /* Assets.xcassets */,
-				84B6267F25966B4C007C028E /* main background.jpg */,
-				849A7A6925A1B669007E3D06 /* andr.png */,
-				843B34C025A902C600EBA7E4 /* egor.png */,
-				849A7A6E25A1B710007E3D06 /* vova.png */,
-				849A7A6A25A1B669007E3D06 /* ann.png */,
-				844D0E0C25A24E0100BEF6A1 /* scary-santa-17297624.png */,
 				843352692596480E005028F5 /* LaunchScreen.storyboard */,
 				8433526C2596480E005028F5 /* Info.plist */,
 			);
@@ -146,14 +125,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */,
-				849A7A6B25A1B669007E3D06 /* andr.png in Resources */,
-				843B34C125A902C700EBA7E4 /* egor.png in Resources */,
 				843352682596480E005028F5 /* Assets.xcassets in Resources */,
-				849A7A6C25A1B669007E3D06 /* ann.png in Resources */,
-				844D0E0D25A24E0100BEF6A1 /* scary-santa-17297624.png in Resources */,
 				843352662596480B005028F5 /* Main.storyboard in Resources */,
-				849A7A6F25A1B710007E3D06 /* vova.png in Resources */,
-				84B6268025966B4C007C028E /* main background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				843352632596480B005028F5 /* ViewController.swift in Sources */,
-				84100E6725A793C1000BFEC2 /* test_test.swift in Sources */,
 				8433525F2596480B005028F5 /* AppDelegate.swift in Sources */,
 				843352612596480B005028F5 /* SceneDelegate.swift in Sources */,
 			);
