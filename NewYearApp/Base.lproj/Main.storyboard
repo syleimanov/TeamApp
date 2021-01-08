@@ -74,7 +74,7 @@
                                     <constraint firstAttribute="height" constant="43" id="K3f-X9-5uc"/>
                                 </constraints>
                                 <string key="text">Над приложением работали:
-(лучшие умы потока)</string>
+(лучшие умы потока)!</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
