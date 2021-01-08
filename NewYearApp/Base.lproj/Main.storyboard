@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,7 +13,7 @@
             <objects>
                 <viewController storyboardIdentifier="Vovas_storyboard" id="BYZ-38-t0r" customClass="LoginViewControler" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Vd-Jh-mqS">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="main background" translatesAutoresizingMaskIntoConstraints="NO" id="DYb-av-aUb">
@@ -23,6 +23,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="diq-g1-Nrt"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="zdo-0y-dPz" firstAttribute="leading" secondItem="diq-g1-Nrt" secondAttribute="leading" constant="147" id="1QL-iQ-ZMA"/>
+                            <constraint firstItem="gVa-cB-hAJ" firstAttribute="centerY" secondItem="6Vd-Jh-mqS" secondAttribute="centerY" id="5OI-iW-DhP"/>
+                            <constraint firstItem="diq-g1-Nrt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tpX-hm-BYC" secondAttribute="trailing" symbolic="YES" id="76h-zv-oxD"/>
+                            <constraint firstItem="zdo-0y-dPz" firstAttribute="top" secondItem="gVa-cB-hAJ" secondAttribute="bottom" constant="75" id="Olf-LC-GUN"/>
+                            <constraint firstItem="zdo-0y-dPz" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="agI-r6-j4L"/>
+                            <constraint firstItem="tpX-hm-BYC" firstAttribute="top" secondItem="diq-g1-Nrt" secondAttribute="top" constant="71" id="dPn-Gu-3PY"/>
+                            <constraint firstItem="gVa-cB-hAJ" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="nbo-p7-4Tf"/>
+                            <constraint firstItem="tpX-hm-BYC" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="ves-r2-YVo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
