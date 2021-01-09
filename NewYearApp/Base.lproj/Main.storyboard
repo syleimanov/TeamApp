@@ -20,9 +20,35 @@
                                 <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Rf-hl-qVm">
+                                <rect key="frame" x="240" y="326" width="172" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="X2d-uw-xwS"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="fKT-FN-iGf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pMk-xb-26g">
+                                <rect key="frame" x="240" y="429" width="172" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="5dE-Ii-oYI"/>
+                                    <constraint firstAttribute="height" constant="34" id="pHK-u4-qJi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="diq-g1-Nrt"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="diq-g1-Nrt" firstAttribute="trailing" secondItem="7Rf-hl-qVm" secondAttribute="trailing" constant="16" id="1OB-1j-BKB"/>
+                            <constraint firstItem="7Rf-hl-qVm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="diq-g1-Nrt" secondAttribute="leading" symbolic="YES" id="Cn5-vZ-L6O"/>
+                            <constraint firstItem="pMk-xb-26g" firstAttribute="top" secondItem="7Rf-hl-qVm" secondAttribute="bottom" constant="69" id="Ga5-41-4o0"/>
+                            <constraint firstItem="diq-g1-Nrt" firstAttribute="trailing" secondItem="pMk-xb-26g" secondAttribute="trailing" constant="16" id="LVb-Zu-Dh5"/>
+                            <constraint firstItem="pMk-xb-26g" firstAttribute="leading" secondItem="7Rf-hl-qVm" secondAttribute="trailing" constant="-172" id="OoI-MW-b4R"/>
+                            <constraint firstItem="7Rf-hl-qVm" firstAttribute="top" secondItem="diq-g1-Nrt" secondAttribute="top" constant="282" id="hEM-Mk-vVj"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -31,7 +57,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="main background" width="556" height="1204"/>
+        <image name="main background" width="185.33332824707031" height="401.33334350585938"/>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
