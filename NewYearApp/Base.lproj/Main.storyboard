@@ -24,14 +24,12 @@
                         <viewLayoutGuide key="safeArea" id="diq-g1-Nrt"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="zdo-0y-dPz" firstAttribute="leading" secondItem="diq-g1-Nrt" secondAttribute="leading" constant="147" id="1QL-iQ-ZMA"/>
-                            <constraint firstItem="gVa-cB-hAJ" firstAttribute="centerY" secondItem="6Vd-Jh-mqS" secondAttribute="centerY" id="5OI-iW-DhP"/>
-                            <constraint firstItem="diq-g1-Nrt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tpX-hm-BYC" secondAttribute="trailing" symbolic="YES" id="76h-zv-oxD"/>
-                            <constraint firstItem="zdo-0y-dPz" firstAttribute="top" secondItem="gVa-cB-hAJ" secondAttribute="bottom" constant="75" id="Olf-LC-GUN"/>
-                            <constraint firstItem="zdo-0y-dPz" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="agI-r6-j4L"/>
-                            <constraint firstItem="tpX-hm-BYC" firstAttribute="top" secondItem="diq-g1-Nrt" secondAttribute="top" constant="71" id="dPn-Gu-3PY"/>
-                            <constraint firstItem="gVa-cB-hAJ" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="nbo-p7-4Tf"/>
-                            <constraint firstItem="tpX-hm-BYC" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="ves-r2-YVo"/>
+                            <constraint firstAttribute="leading" secondItem="diq-g1-Nrt" secondAttribute="leading" constant="147" id="1QL-iQ-ZMA"/>
+                            <constraint firstAttribute="centerY" secondItem="6Vd-Jh-mqS" secondAttribute="centerY" id="5OI-iW-DhP"/>
+                            <constraint firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="agI-r6-j4L"/>
+                            <constraint firstAttribute="top" secondItem="diq-g1-Nrt" secondAttribute="top" constant="71" id="dPn-Gu-3PY"/>
+                            <constraint firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="nbo-p7-4Tf"/>
+                            <constraint firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="ves-r2-YVo"/>
                         </constraints>
                     </view>
                 </viewController>
