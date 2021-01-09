@@ -41,7 +41,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="main background" width="556" height="1204"/>
+        <image name="main background" width="278" height="602"/>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
