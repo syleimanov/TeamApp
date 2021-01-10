@@ -8,31 +8,120 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Vovas storyboard-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Vovas_storyboard" id="BYZ-38-t0r" customClass="Vovas_storyboard" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Vovas_storyboard" id="BYZ-38-t0r" customClass="ViewController" customModule="NewYearApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Vd-Jh-mqS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnj-8a-uKs">
-                                <rect key="frame" x="59.5" y="76" width="256" height="41"/>
+                                <rect key="frame" x="57" y="76" width="261" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="YdJ-Kk-NRY"/>
                                 </constraints>
                                 <string key="text">Над приложением работали
-лучшие умы 17 потока swiftbook</string>
+лучшие умы 17 потока swiftbook:</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="jjD-5J-6IW">
+                                <rect key="frame" x="31.5" y="157" width="312.5" height="421"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="aU2-3j-Qws">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="421"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ann.png" translatesAutoresizingMaskIntoConstraints="NO" id="OX3-LY-9Gx">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="6AK-lm-kn5"/>
+                                                    <constraint firstAttribute="width" constant="100" id="v58-SN-hzM"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="andr.png" translatesAutoresizingMaskIntoConstraints="NO" id="l6r-BH-aV2">
+                                                <rect key="frame" x="0.0" y="107" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="DdS-5n-48b"/>
+                                                    <constraint firstAttribute="height" constant="100" id="wPd-gd-d72"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="egor.png" translatesAutoresizingMaskIntoConstraints="NO" id="7kX-nl-rWu">
+                                                <rect key="frame" x="0.0" y="214" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="3x7-7H-57K"/>
+                                                    <constraint firstAttribute="height" constant="100" id="RAh-Zj-iGF"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="vova.png" translatesAutoresizingMaskIntoConstraints="NO" id="yLx-bA-7dz">
+                                                <rect key="frame" x="0.0" y="321" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="K4b-eY-Ryq"/>
+                                                    <constraint firstAttribute="width" constant="100" id="iTl-95-dsq"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="dTW-WS-pbD">
+                                        <rect key="frame" x="135" y="42" width="177.5" height="337"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Анна (1-й экран)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5o-kT-yr7">
+                                                <rect key="frame" x="0.0" y="0.0" width="132.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Андрей (2-й экран)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pw8-A9-ZJS">
+                                                <rect key="frame" x="0.0" y="105.5" width="155.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Егор (3-й экран)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psA-Ib-Rjp">
+                                                <rect key="frame" x="0.0" y="211" width="132.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Владимир (4-й экран)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruG-my-OlC">
+                                                <rect key="frame" x="0.0" y="316.5" width="177.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lk-55-01n">
+                                <rect key="frame" x="138.5" y="603" width="98" height="35"/>
+                                <color key="backgroundColor" red="0.93363252810042396" green="1" blue="0.93074733959509492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="Q1A-MJ-BVz"/>
+                                    <constraint firstAttribute="height" constant="35" id="X0H-7C-otr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="ВЫХОД">
+                                    <color key="titleColor" red="0.61356460489999998" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="diq-g1-Nrt"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="jjD-5J-6IW" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="AQh-of-a1e"/>
                             <constraint firstItem="rnj-8a-uKs" firstAttribute="top" secondItem="diq-g1-Nrt" secondAttribute="top" constant="76" id="CTE-dL-ZHa"/>
                             <constraint firstItem="rnj-8a-uKs" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="M01-0r-NI3"/>
+                            <constraint firstItem="6lk-55-01n" firstAttribute="centerX" secondItem="6Vd-Jh-mqS" secondAttribute="centerX" id="dzx-CW-dKC"/>
+                            <constraint firstItem="diq-g1-Nrt" firstAttribute="bottom" secondItem="jjD-5J-6IW" secondAttribute="bottom" constant="89" id="wxl-MR-0x4"/>
+                            <constraint firstItem="6lk-55-01n" firstAttribute="top" secondItem="jjD-5J-6IW" secondAttribute="bottom" constant="25" id="yiV-3N-bVK"/>
+                            <constraint firstItem="jjD-5J-6IW" firstAttribute="top" secondItem="rnj-8a-uKs" secondAttribute="bottom" constant="40" id="z7P-5q-B7Q"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -42,6 +131,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="andr.png" width="153.60000610351562" height="153.60000610351562"/>
+        <image name="ann.png" width="153.60000610351562" height="153.60000610351562"/>
+        <image name="egor.png" width="140.8800048828125" height="140.16000366210938"/>
+        <image name="vova.png" width="270" height="270.48001098632812"/>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

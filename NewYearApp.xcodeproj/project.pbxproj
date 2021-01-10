@@ -13,6 +13,10 @@
 		843352662596480B005028F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843352642596480B005028F5 /* Main.storyboard */; };
 		843352682596480E005028F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843352672596480E005028F5 /* Assets.xcassets */; };
 		8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843352692596480E005028F5 /* LaunchScreen.storyboard */; };
+		8439156F25AB0283007252FA /* ann.png in Resources */ = {isa = PBXBuildFile; fileRef = 8439156B25AB0283007252FA /* ann.png */; };
+		8439157025AB0283007252FA /* andr.png in Resources */ = {isa = PBXBuildFile; fileRef = 8439156C25AB0283007252FA /* andr.png */; };
+		8439157125AB0283007252FA /* vova.png in Resources */ = {isa = PBXBuildFile; fileRef = 8439156D25AB0283007252FA /* vova.png */; };
+		8439157225AB0283007252FA /* egor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8439156E25AB0283007252FA /* egor.png */; };
 		843B34E525AA194300EBA7E4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 843B34E425AA194300EBA7E4 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,10 @@
 		843352672596480E005028F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8433526A2596480E005028F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8433526C2596480E005028F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8439156B25AB0283007252FA /* ann.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ann.png; path = Assets.xcassets/ann.png; sourceTree = "<group>"; };
+		8439156C25AB0283007252FA /* andr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = andr.png; path = Assets.xcassets/andr.png; sourceTree = "<group>"; };
+		8439156D25AB0283007252FA /* vova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vova.png; path = Assets.xcassets/vova.png; sourceTree = "<group>"; };
+		8439156E25AB0283007252FA /* egor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = egor.png; path = Assets.xcassets/egor.png; sourceTree = "<group>"; };
 		843B34E425AA194300EBA7E4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +72,10 @@
 				843352642596480B005028F5 /* Main.storyboard */,
 				843B34E425AA194300EBA7E4 /* .gitignore */,
 				843352672596480E005028F5 /* Assets.xcassets */,
+				8439156C25AB0283007252FA /* andr.png */,
+				8439156B25AB0283007252FA /* ann.png */,
+				8439156E25AB0283007252FA /* egor.png */,
+				8439156D25AB0283007252FA /* vova.png */,
 				843352692596480E005028F5 /* LaunchScreen.storyboard */,
 				8433526C2596480E005028F5 /* Info.plist */,
 			);
@@ -127,9 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8439157225AB0283007252FA /* egor.png in Resources */,
 				843B34E525AA194300EBA7E4 /* .gitignore in Resources */,
 				8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */,
+				8439157025AB0283007252FA /* andr.png in Resources */,
 				843352682596480E005028F5 /* Assets.xcassets in Resources */,
+				8439156F25AB0283007252FA /* ann.png in Resources */,
+				8439157125AB0283007252FA /* vova.png in Resources */,
 				843352662596480B005028F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
