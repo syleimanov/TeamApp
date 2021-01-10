@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AQ5-9T-xgY">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -82,8 +85,139 @@
             </objects>
             <point key="canvasLocation" x="-194.20289855072465" y="66.294642857142861"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="dhP-sj-qLc">
+            <objects>
+                <viewController id="AQ5-9T-xgY" customClass="ThirdViewController" customModule="NewYearApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Ja-HH-KYh">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Я хочу..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1nZ-3S-9Fb">
+                                <rect key="frame" x="16" y="231.66666666666666" width="396" height="33.999999999999972"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.91342618490000005" alpha="0.69267138009999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" smartInsertDeleteType="yes" smartQuotesType="no"/>
+                                <connections>
+                                    <outlet property="delegate" destination="AQ5-9T-xgY" id="be7-MB-rCA"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Что ты хочешь получить в подарок от Санты?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxP-8e-LkR">
+                                <rect key="frame" x="16" y="114" width="396" height="67.666666666666686"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1K-uV-A4z">
+                                <rect key="frame" x="145.66666666666666" y="776" width="136.99999999999997" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Отправить">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMailButton:" destination="AQ5-9T-xgY" eventType="touchUpInside" id="9Wr-8P-2TC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XRd-iK-7eY"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="bxP-8e-LkR" firstAttribute="leading" secondItem="XRd-iK-7eY" secondAttribute="leading" constant="16" id="MMR-RB-MfU"/>
+                            <constraint firstItem="1nZ-3S-9Fb" firstAttribute="top" secondItem="bxP-8e-LkR" secondAttribute="bottom" constant="50" id="VMh-hH-Gxi"/>
+                            <constraint firstItem="1nZ-3S-9Fb" firstAttribute="leading" secondItem="XRd-iK-7eY" secondAttribute="leading" constant="16" id="ck6-1A-J57"/>
+                            <constraint firstItem="bxP-8e-LkR" firstAttribute="top" secondItem="XRd-iK-7eY" secondAttribute="top" constant="70" id="dT6-EJ-TbC"/>
+                            <constraint firstItem="XRd-iK-7eY" firstAttribute="trailing" secondItem="1nZ-3S-9Fb" secondAttribute="trailing" constant="16" id="g9v-Et-Y1x"/>
+                            <constraint firstItem="l1K-uV-A4z" firstAttribute="centerX" secondItem="7Ja-HH-KYh" secondAttribute="centerX" id="gDI-nh-Kiq"/>
+                            <constraint firstItem="XRd-iK-7eY" firstAttribute="trailing" secondItem="bxP-8e-LkR" secondAttribute="trailing" constant="16" id="pZZ-IA-eYm"/>
+                            <constraint firstItem="XRd-iK-7eY" firstAttribute="bottom" secondItem="l1K-uV-A4z" secondAttribute="bottom" constant="70" id="tBr-w2-R6t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textFieldOutlet" destination="1nZ-3S-9Fb" id="S1T-pf-05n"/>
+                        <segue destination="THI-wf-AhA" kind="show" identifier="sendMailSegue" id="1Uj-5k-nIS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vLi-4s-wce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="545" y="67"/>
+        </scene>
+        <!--Mail Sent View Controller-->
+        <scene sceneID="jcB-bh-Flj">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="THI-wf-AhA" customClass="MailSentViewController" customModule="NewYearApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aFI-Qk-Qfk">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Письмо отправлено:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg9-On-Uv5">
+                                <rect key="frame" x="83.333333333333343" y="84" width="261.33333333333326" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNE-4T-z59">
+                                <rect key="frame" x="116.66666666666669" y="700" width="195" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Отправить еще">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="alB-bb-PFa" kind="unwind" unwindAction="unwind:" id="Zmb-iG-som"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дорогой дедушка мороз!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwP-am-NvH">
+                                <rect key="frame" x="113.00000000000001" y="167.66666666666666" width="202.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgt-wH-gyK">
+                                <rect key="frame" x="32" y="204.66666666666666" width="364" height="108.33333333333334"/>
+                                <string key="text">Ёлки у меня нет, поэтому положи мой подарок на стол. Не забудь закрыть за собой форточку. На столе лежит коробка конфет - все не ешь. Это мой подарок из садика. Ах, да! Хочу ()!</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7d-b1-kGd">
+                                <rect key="frame" x="140" y="776" width="148" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="На главную">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xLJ-8g-o50"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="dgt-wH-gyK" firstAttribute="leading" secondItem="xLJ-8g-o50" secondAttribute="leading" constant="32" id="5fi-az-qCP"/>
+                            <constraint firstItem="ZNE-4T-z59" firstAttribute="centerX" secondItem="aFI-Qk-Qfk" secondAttribute="centerX" id="DfY-cu-gm7"/>
+                            <constraint firstItem="xLJ-8g-o50" firstAttribute="trailing" secondItem="dgt-wH-gyK" secondAttribute="trailing" constant="32" id="Izf-kt-IHl"/>
+                            <constraint firstItem="gg9-On-Uv5" firstAttribute="centerX" secondItem="aFI-Qk-Qfk" secondAttribute="centerX" id="RN4-Sg-JfC"/>
+                            <constraint firstItem="i7d-b1-kGd" firstAttribute="top" secondItem="ZNE-4T-z59" secondAttribute="bottom" constant="30" id="Tz4-M5-Tye"/>
+                            <constraint firstItem="hwP-am-NvH" firstAttribute="centerX" secondItem="aFI-Qk-Qfk" secondAttribute="centerX" id="ZNj-fx-ygV"/>
+                            <constraint firstItem="xLJ-8g-o50" firstAttribute="bottom" secondItem="i7d-b1-kGd" secondAttribute="bottom" constant="70" id="en6-p3-A86"/>
+                            <constraint firstItem="dgt-wH-gyK" firstAttribute="top" secondItem="hwP-am-NvH" secondAttribute="bottom" constant="16" id="gTO-9I-CUI"/>
+                            <constraint firstItem="gg9-On-Uv5" firstAttribute="top" secondItem="xLJ-8g-o50" secondAttribute="top" constant="40" id="q91-RM-iOi"/>
+                            <constraint firstItem="hwP-am-NvH" firstAttribute="top" secondItem="gg9-On-Uv5" secondAttribute="bottom" constant="50" id="u7d-KO-pUV"/>
+                            <constraint firstItem="i7d-b1-kGd" firstAttribute="centerX" secondItem="aFI-Qk-Qfk" secondAttribute="centerX" id="wqZ-Bc-C8h"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JIk-po-Ieb"/>
+                    <connections>
+                        <outlet property="mailLabel" destination="dgt-wH-gyK" id="hhz-B6-5yH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0C-8O-Axg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="alB-bb-PFa" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1301" y="67"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <image name="main background" width="278" height="602"/>
     </resources>
 </document>

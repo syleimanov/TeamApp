@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AA6D14A25AB465800AD07C8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6D14925AB465800AD07C8 /* ThirdViewController.swift */; };
+		4AA6D14E25AB468000AD07C8 /* MailSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6D14D25AB468000AD07C8 /* MailSentViewController.swift */; };
 		8433525F2596480B005028F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433525E2596480B005028F5 /* AppDelegate.swift */; };
 		843352612596480B005028F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352602596480B005028F5 /* SceneDelegate.swift */; };
 		843352632596480B005028F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843352622596480B005028F5 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AA6D14925AB465800AD07C8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4AA6D14D25AB468000AD07C8 /* MailSentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailSentViewController.swift; sourceTree = "<group>"; };
 		8433525B2596480B005028F5 /* NewYearApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYearApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433525E2596480B005028F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843352602596480B005028F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 		843352522596480B005028F5 = {
 			isa = PBXGroup;
 			children = (
+				843B34E425AA194300EBA7E4 /* .gitignore */,
 				8433525D2596480B005028F5 /* NewYearApp */,
 				8433525C2596480B005028F5 /* Products */,
 			);
@@ -64,6 +69,8 @@
 				843352602596480B005028F5 /* SceneDelegate.swift */,
 				843352622596480B005028F5 /* ViewController.swift */,
 				843352642596480B005028F5 /* Main.storyboard */,
+				4AA6D14D25AB468000AD07C8 /* MailSentViewController.swift */,
+				4AA6D14925AB465800AD07C8 /* ThirdViewController.swift */,
 				9516C1E125AB29D4009CCA0B /* LoginViewController.swift */,
 				843B34E425AA194300EBA7E4 /* .gitignore */,
 				843352672596480E005028F5 /* Assets.xcassets */,
@@ -147,6 +154,8 @@
 				9516C1E225AB29D4009CCA0B /* LoginViewController.swift in Sources */,
 				843352632596480B005028F5 /* ViewController.swift in Sources */,
 				8433525F2596480B005028F5 /* AppDelegate.swift in Sources */,
+				4AA6D14E25AB468000AD07C8 /* MailSentViewController.swift in Sources */,
+				4AA6D14A25AB465800AD07C8 /* ThirdViewController.swift in Sources */,
 				843352612596480B005028F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
