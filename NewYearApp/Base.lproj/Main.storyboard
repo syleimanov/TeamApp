@@ -53,6 +53,9 @@
                                 <state key="normal" title="Отправить">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendMailButton:" destination="AQ5-9T-xgY" eventType="touchUpInside" id="9Wr-8P-2TC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XRd-iK-7eY"/>
@@ -69,6 +72,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="textFieldOutlet" destination="1nZ-3S-9Fb" id="S1T-pf-05n"/>
                         <segue destination="THI-wf-AhA" kind="show" identifier="sendMailSegue" id="1Uj-5k-nIS"/>
                     </connections>
                 </viewController>
@@ -96,6 +100,9 @@
                                 <state key="normal" title="Отправить еще">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="alB-bb-PFa" kind="unwind" unwindAction="unwind:" id="Zmb-iG-som"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дорогой дедушка мороз!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwP-am-NvH">
                                 <rect key="frame" x="113.00000000000001" y="167.66666666666666" width="202.33333333333337" height="21"/>
@@ -135,8 +142,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JIk-po-Ieb"/>
+                    <connections>
+                        <outlet property="mailLabel" destination="dgt-wH-gyK" id="hhz-B6-5yH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q0C-8O-Axg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="alB-bb-PFa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1301" y="67"/>
         </scene>
