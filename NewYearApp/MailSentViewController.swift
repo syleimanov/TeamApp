@@ -10,7 +10,6 @@ import UIKit
 class MailSentViewController: UIViewController {
     
     @IBOutlet weak var mailLabel: UILabel!
-//    @IBOutlet weak var paperView: UIView!
     var gift = ""
     
     override func viewWillLayoutSubviews() {
@@ -22,11 +21,6 @@ class MailSentViewController: UIViewController {
         
         mailLabel.text = mails.randomElement()
         
-//        paperView.layer.backgroundColor = CGColor(red: 205 / 255, green: 205 / 255, blue: 205 / 255, alpha: 1)
-//        paperView.layer.shadowColor = UIColor.black.cgColor
-//        paperView.layer.shadowOpacity = 0.7
-//        paperView.layer.shadowRadius = 10
-//        paperView.layer.shadowOffset = .zero
     }
     
     override func viewDidLoad() {
