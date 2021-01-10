@@ -18,6 +18,7 @@
 		8439157125AB0283007252FA /* vova.png in Resources */ = {isa = PBXBuildFile; fileRef = 8439156D25AB0283007252FA /* vova.png */; };
 		8439157225AB0283007252FA /* egor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8439156E25AB0283007252FA /* egor.png */; };
 		843B34E525AA194300EBA7E4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 843B34E425AA194300EBA7E4 /* .gitignore */; };
+		D9A1453E25AB0F4600B60919 /* NYVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = D9A1453D25AB0F4600B60919 /* NYVideo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8439156D25AB0283007252FA /* vova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vova.png; path = Assets.xcassets/vova.png; sourceTree = "<group>"; };
 		8439156E25AB0283007252FA /* egor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = egor.png; path = Assets.xcassets/egor.png; sourceTree = "<group>"; };
 		843B34E425AA194300EBA7E4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D9A1453D25AB0F4600B60919 /* NYVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = NYVideo.mov; path = ../../../Desktop/NYVideo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		8433525D2596480B005028F5 /* NewYearApp */ = {
 			isa = PBXGroup;
 			children = (
+				D9A1453D25AB0F4600B60919 /* NYVideo.mov */,
 				8433525E2596480B005028F5 /* AppDelegate.swift */,
 				843352602596480B005028F5 /* SceneDelegate.swift */,
 				843352622596480B005028F5 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			files = (
 				8439157225AB0283007252FA /* egor.png in Resources */,
 				843B34E525AA194300EBA7E4 /* .gitignore in Resources */,
+				D9A1453E25AB0F4600B60919 /* NYVideo.mov in Resources */,
 				8433526B2596480E005028F5 /* LaunchScreen.storyboard in Resources */,
 				8439157025AB0283007252FA /* andr.png in Resources */,
 				843352682596480E005028F5 /* Assets.xcassets in Resources */,
@@ -309,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3XG75R6R4;
 				INFOPLIST_FILE = NewYearApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3XG75R6R4;
 				INFOPLIST_FILE = NewYearApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
