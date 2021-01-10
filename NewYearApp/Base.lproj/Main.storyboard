@@ -14,13 +14,71 @@
                     <view key="view" contentMode="scaleToFill" id="6Vd-Jh-mqS">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="main background" translatesAutoresizingMaskIntoConstraints="NO" id="D5C-2O-9iK">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N9t-wq-HdY">
+                                <rect key="frame" x="239" y="324" width="173" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="173" id="jUI-rt-c6C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9US-k9-BwA">
+                                <rect key="frame" x="239" y="424" width="173" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="173" id="r3v-31-hZg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNh-m3-WSL">
+                                <rect key="frame" x="275" y="516" width="85" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="U38-Gl-fMA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Log In"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53R-eW-JyR">
+                                <rect key="frame" x="183" y="466" width="94" height="30"/>
+                                <state key="normal" title="Forgot Login?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uV-Jb-ugg">
+                                <rect key="frame" x="289" y="466" width="123" height="30"/>
+                                <state key="normal" title="Forgot Password?"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="diq-g1-Nrt"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9US-k9-BwA" firstAttribute="top" secondItem="N9t-wq-HdY" secondAttribute="bottom" constant="66" id="1As-Gb-RgF"/>
+                            <constraint firstItem="53R-eW-JyR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="diq-g1-Nrt" secondAttribute="leading" symbolic="YES" id="3VR-IG-5SP"/>
+                            <constraint firstItem="9uV-Jb-ugg" firstAttribute="leading" secondItem="53R-eW-JyR" secondAttribute="trailing" constant="12" id="5sA-4r-s06"/>
+                            <constraint firstItem="9uV-Jb-ugg" firstAttribute="trailing" secondItem="N9t-wq-HdY" secondAttribute="trailing" id="Frk-jK-NJH"/>
+                            <constraint firstItem="N9t-wq-HdY" firstAttribute="leading" secondItem="diq-g1-Nrt" secondAttribute="leading" constant="239" id="GGM-68-0hD"/>
+                            <constraint firstItem="diq-g1-Nrt" firstAttribute="trailing" secondItem="GNh-m3-WSL" secondAttribute="trailing" constant="68" id="Gl2-KC-nT0"/>
+                            <constraint firstItem="GNh-m3-WSL" firstAttribute="top" secondItem="9uV-Jb-ugg" secondAttribute="bottom" constant="20" id="WVH-AZ-3ht"/>
+                            <constraint firstItem="53R-eW-JyR" firstAttribute="top" secondItem="9US-k9-BwA" secondAttribute="bottom" constant="8" symbolic="YES" id="bMb-iF-2Z8"/>
+                            <constraint firstItem="9uV-Jb-ugg" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9US-k9-BwA" secondAttribute="trailing" id="e2u-dL-aa7"/>
+                            <constraint firstItem="N9t-wq-HdY" firstAttribute="top" secondItem="diq-g1-Nrt" secondAttribute="top" constant="280" id="ehE-tt-HCq"/>
+                            <constraint firstItem="9US-k9-BwA" firstAttribute="leading" secondItem="53R-eW-JyR" secondAttribute="trailing" constant="-38" id="i71-dj-3Ka"/>
+                            <constraint firstItem="53R-eW-JyR" firstAttribute="centerY" secondItem="9uV-Jb-ugg" secondAttribute="centerY" id="oFA-OQ-W6Z"/>
+                            <constraint firstItem="GNh-m3-WSL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="diq-g1-Nrt" secondAttribute="leading" symbolic="YES" id="tru-ZN-6dm"/>
+                            <constraint firstItem="diq-g1-Nrt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="N9t-wq-HdY" secondAttribute="trailing" id="xGO-qJ-kxa"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-192.80000000000001" y="67.016491754122939"/>
+            <point key="canvasLocation" x="-193.45794392523362" y="66.738660907127439"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="main background" width="556" height="1204"/>
+    </resources>
 </document>
