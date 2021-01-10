@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Vovas storyboard-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Vovas_storyboard" id="BYZ-38-t0r" customClass="Vovas_storyboard" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Vovas_storyboard" id="BYZ-38-t0r" customClass="LoginViewController" customModule="NewYearApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Vd-Jh-mqS">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,6 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="main background" width="556" height="1204"/>
+        <image name="main background" width="185.33332824707031" height="401.33334350585938"/>
     </resources>
 </document>
